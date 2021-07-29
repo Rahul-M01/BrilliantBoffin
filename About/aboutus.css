@@ -581,7 +581,7 @@ body::-webkit-scrollbar-thumb {
     width: 0; }
   .accordion button[aria-expanded='true'] + .accordion-content {
     opacity: 1;
-    max-height: 9em;
+    max-height: 100em;
     transition: all 200ms linear;
     will-change: opacity, max-height; }
 .accordion .accordion-content {
@@ -594,5 +594,9 @@ body::-webkit-scrollbar-thumb {
     font-size: 2rem;
     font-weight: 300;
     margin: 2em 0; }
+
+#table td {
+  border: 1px solid black;
+  padding: 2%; }
 
 /*# sourceMappingURL=aboutus.css.map */
